@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>regex/less13</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+</head>
+<body> 
+  <h1 class="animate__animated animate__jackInTheBox">Form element</h1>
+  <section>
+    <form class="login" action="" id="LOGIN">
+    <div>
+      <input type="text" id="usernamefield">
+      <input type="checkbox" id="savedInfo">
+    </div>
+    <div>
+      <input type="password" id="usernamePassw">
+    </div>
+    <button class="submitbtn"  type="submit">Sign In</button>
+   </form>
+  </section>
+
+  <section>
+    <div class="form-wraper">
+    <form action="" id="form-el" method="POST">
+      <div >
+        <input
+          type="text"
+          name="usernamefield"
+          id="username"
+          placeholder="Name.."
+        />
+        <p class="error-text" id="error_usernamefield"></p>
+      </div>
+      <div>
+        <input
+          type="password"
+          name="passwordfield"
+          id="password"
+          placeholder="Password.."
+        />
+        <i class="fa-solid fa-eye" id="icon-passw"></i>
+        <p class="error-text" id="error_passwordfield"></p>
+      </div>
+      <div>
+        <input type="email" placeholder="Email.." id="emailField">
+        <p id="erorEmail"></p>
+      </div>
+      <div>
+        <input
+          type="password"
+          name="passwordfield2"
+          id="password2"
+          placeholder="Repeat Password.."
+        />
+        <p class="error-text" id="error_passwordfield2"></p>
+      </div>
+      <div>
+        <input type="radio" name="gender" id="malegender" />
+        <label for="">Male</label>
+        <input type="radio" name="gender" id="femalegender" />
+        <label for="">Female</label>
+        <p class="error-text" id="error_gender"></p>
+      </div>
+      <div>
+        <input type="checkbox" name="agree" id="check" />
+        <label for="check">I agree terms and conditions</label>
+        <p class="error-text" id="error_agree"></p>
+      </div>
+      <button class="submit" type="submit">Submit Form</button>
+    </form>
+  </div>
+  </section>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.5/dist/js.cookie.min.js "></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,70 @@
+
+
+.animate__animated.animate__jackInTheBox {
+    --animate-duration: 800ms; 
+    font-size: 35px;
+    margin-top: 15px;
+    color: red;
+}
+.submit {
+    margin-top: 10px;
+    font-size: 18px;
+    background-color:rgb(54, 54, 245);
+}
+
+#form-el {
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+#password {
+    font-size: 25px;
+    color:blue;
+    
+}
+#username {
+    font-size: 25px;
+    color: blue;
+    margin: 5px;
+}
+#password2 {
+    font-size: 25px;
+    color: blue;
+}
+#emailField {
+    color: blue;
+    font-size: 25px;
+    margin: 5px;
+    
+}
+ .error-text {
+    color: red;
+ }
+ body {
+    background-color: rgb(208, 173, 173);
+    margin-left: 25px;
+    gap:20px;
+    text-align: center;
+ }
+ #usernamefield {
+    font-size: 20px;
+  }
+  #usernamePassw {
+    font-size: 20px;
+    margin: 5px;
+  }
+  #savedInfo {
+    font-size: 15px;
+  }
+  .login {
+    margin-top: 15px;
+  }
+  .submitbtn {
+    font-size: 18px;
+    background-color: lightblue;
+  }
+
+
+
+  /* byger */
